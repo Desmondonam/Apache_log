@@ -9,7 +9,6 @@ from collections import Counter
 def reader(filename):
     with open(filename) as f:
         log = f.read()
-        #print(log)
 
         regexp = r'\d{1,3}\.\d{1,3}\.\d{1,3}.\d{1,3}'
 
