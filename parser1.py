@@ -6,6 +6,7 @@ import re
 import csv
 from collections import Counter
 
+# function for reading the file
 def reader(filename):
     with open(filename) as f:
         log = f.read()
